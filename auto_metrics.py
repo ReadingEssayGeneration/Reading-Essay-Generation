@@ -1,5 +1,3 @@
-# !pip install transformers
-# !pip install --upgrade gensim
 import pandas as pd 
 import numpy as np 
 import torch

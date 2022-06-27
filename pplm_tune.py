@@ -1,11 +1,3 @@
-# !pip install --upgrade gensim
-
-# !git clone https://github.com/ReadingEssayGeneration/PPLM.git
-# import os
-# os.chdir('PPLM')
-# !pip install -r requirements.txt
-
-from run_pplm_essay import run_pplm_example
 import pandas as pd
 import torch
 import random
@@ -13,6 +5,8 @@ import random
 import nltk
 nltk.download('punkt')
 from gensim.models import Word2Vec
+
+from run_pplm_essay import run_pplm_example
 
 
 

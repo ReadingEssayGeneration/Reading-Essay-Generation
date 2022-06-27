@@ -1,16 +1,8 @@
-# !pip install transformers
-# !pip install --upgrade gensim
-
-# !git clone https://github.com/ReadingEssayGeneration/PPLM.git
-# import os
-# os.chdir('PPLM')
-# !pip install -r requirements.txt
-
 import torch
-from transformers import GPT2LMHeadModel,  GPT2Tokenizer, GPT2LMHeadModel
 import random
 import pandas as pd
 import numpy as np
+from transformers import GPT2LMHeadModel,  GPT2Tokenizer, GPT2LMHeadModel
 
 from run_pplm_essay import run_pplm_example
 # if you'd like to use "gpt-2 without finetuning + PPLM", please import:
