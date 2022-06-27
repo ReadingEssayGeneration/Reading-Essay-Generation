@@ -90,7 +90,7 @@ def get_others(content):
     print("Avg Keyword Number: {:.4f}".format(avg_key_num))
 
     # Word Mover Distance
-    model = Word2Vec.load("./topics/size_512_min_5.model")
+    model = Word2Vec.load("./topics/w2v.model")
 
     dist_1, dist_2, dist_3 = 0, 0, 0
     for i in range(0, 10):
