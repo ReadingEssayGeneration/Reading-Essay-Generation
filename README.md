@@ -18,7 +18,7 @@ git clone https://github.com/ReadingEssayGeneration/PPLM.git
 
 We fine-tune the GPT-2 model with our reading essay dataset in *gpt2_finetune.py*. 
 
-Due to the confidentiality of educational resources, we are not able to publicly offer the access to the dataset. Nonetheless, our fine-tuned gpt-2 model is provided in the [link](). Please download the model and save it in a folder `\model\`. 
+Due to the confidentiality of educational resources, we are not able to publicly offer the access to the dataset. Nonetheless, our fine-tuned GPT-2 model is provided in [Google Drive](https://drive.google.com/drive/folders/1_fqua3n-axGPAUPjbL-0sisNbq0dMDd2?usp=sharing). Please download the folder containing the model and move it to `\model\`. 
 
 ## Optimal Hyper-parameters in PPLM
 
